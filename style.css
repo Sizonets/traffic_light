@@ -1,0 +1,35 @@
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.corpus {
+    border: 5px solid #000;
+    height: 300px;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.lamp{
+    height: 70px;
+    width: 70px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
